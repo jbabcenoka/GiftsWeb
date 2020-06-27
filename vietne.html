@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Gifts</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="vietneCSS.css" />
+<script src="all_gifts.js"></script>
+<script src="jquery-3.4.1.min.js"></script>
+<script src="vietne.js"></script>
+</head>
+<body>
+	<header>
+		<nav id="top-menu" class="menu">
+		    <ul class="parent-menu">
+                  <li class="upper-menu"><a href="vietne.html">Any occation</a></li>
+                  <li class="upper-menu"><a href="wrapping.html">Gift wrapping</a></li>
+             </ul>
+		</nav>
+		<a href="profile.html"><img src="gifts/images/icon2.png" id="icon2" alt="icon"></a>
+		<div id="name">
+			<h1><i>A special gift for you</i></h1>
+		</div>
+	</header>
+	<section id="first">
+		<div class="in-section">
+		<h2>Gifts for: </h2>
+			<div id="buttons">
+				<span class="b" id="any_occation">Any occation</span>
+				<span class="b" id="women">Women</span>
+				<span class="b" id="men">Men</span>
+				<span class="b" id="kids">Kids</span>
+			</div>
+			<table id="table">
+			</table>
+		</div>
+	</section>
+	<footer>
+		<div id="back"><h2 id="Name">Jevgeņija Babčenoka jb19045</h2></div>
+	</footer>
+	<script>
+		$(document).ready(function(){
+		$("#back").mouseover(function(){
+			var h2 = $("#Name");  
+			h2.css("color", "red");
+  			h2.animate({fontSize: '2.5em'}, "slow");
+		 });
+		});
+	</script>
+</body>
+
+</html>

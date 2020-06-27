@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Gifts</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="vietneCSS.css" />
+<script src="all_gifts.js"></script>
+<script src="jquery-3.4.1.min.js"></script>
+<script src="vietne2.js"></script>
+</head>
+<body>
+	<header>
+		<nav id="top-menu" class="menu">
+		    <ul class="parent-menu">
+                  <li class="upper-menu"><a href="vietne.html">Any occation</a></li>
+                  <li class="upper-menu"><a href="wrapping.html">Gift wrapping</a></li>
+             </ul>
+		</nav>
+		<a href="profile.html"><img src="gifts/images/icon2.png" id="icon2" alt="icon"></a>
+		<div id="name">
+			<h1><i>A special gift for you</i></h1>
+		</div>
+	</header>
+	<section id="first">
+		<div class="in-section">
+		<h2>Profile</h2>
+			<form id="MyForm">
+				<div class="container">
+					<h3>Register</h3>
+					 <p>Please fill in this form to create an account.</p>
+					 <hr>
+					 <label><b>Age</b></label>
+				    <input class="text" id="age" type="text" placeholder="Enter age">
+				    <label><b>Email</b></label>
+				    <input class="text" id="email" type="text" placeholder="Enter Email">
+
+				    <label><b>Password</b></label>
+				    <input class="password" id="password1" type="password" placeholder="Enter Password">
+
+				    <label><b>Repeat Password</b></label>
+				    <input class="password" id="password2" type="password" placeholder="Repeat Password">
+				    <hr>
+				    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+				    <button type="submit" class="registerbtn" id="register">Register</button>
+				</div>
+			</form>
+		</div>
+	</section>
+	<footer>
+		<div id="back"><h2 id="Name">Jevgeņija Babčenoka jb19045</h2></div>
+	</footer>
+	<script>
+		$(document).ready(function(){
+		$("#back").mouseover(function(){
+			var h2 = $("#Name");  
+			h2.css("color", "red");
+  			h2.animate({fontSize: '2.5em'}, "slow");
+		 });
+		});
+	</script>
+</body>
+
+</html>

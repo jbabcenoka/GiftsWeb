@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Gifts</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="vietneCSS.css" />
+<script src="jquery-3.4.1.min.js"></script>
+<script src="all_gifts.js"></script>
+</head>
+<body>
+	
+	<header>
+		<nav id="top-menu" class="menu">
+		    <ul class="parent-menu">
+                  <li class="upper-menu"><a href="vietne.html">Any occation</a></li>
+                  <li class="upper-menu"><a href="wrapping.html">Gift wrapping</a></li>
+             </ul>
+		</nav>
+		<a href="profile.html"><img src="gifts/images/icon2.png" id="icon2"  alt="icon"></a>
+		<div id="name">
+			<h1><i>A special gift for you</i></h1>
+		</div>
+	</header>
+	<section id="first">
+		<div class="in-section">
+			<h2>How to wrap a gift?</h2>
+			<details>
+				<summary><b>Click for more information:</b></summary>
+				<p class="how-to-wrap"><i><b>Wrapping</b></i> a present is a kind gesture that can show someone how much you care. It's easy to wrap a present if you make all your folds and cuts carefully. When you're done with the basic wrapping, you can give the present a unique touch with bows and embellishments. When finished, you'll have a beautiful gift to present to a loved one.</p>
+				<p class="how-to-wrap">
+					<h2>Wrapping steps:</h2>
+					<ol>
+						<li>Cut Wrapping Paper</li>
+						<li>Fold Over</li>
+						<li>Join Ends</li>
+						<li>Close Open Ends</li>
+						<li>Fold Down</li>
+						<li>Get Rid of Excess Paper</li>
+						<li>Close Other Side</li>
+						<li>Add Ribon</li>
+						<li>Thread Ribbon</li>
+						<li>Make a Double Knot</li>
+						<li>Trim Ends</li>
+						<li>You-re Done!</li>
+					</ol>
+				</p>
+			</details>
+			<div id='frame'>
+				<iframe src="https://www.youtube.com/embed/6ik_yEXHUlg" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div id="back"><h2 id="Name">Jevgeņija Babčenoka jb19045</h2></div>
+	</footer>
+	<script>
+		$(document).ready(function(){
+		$("#back").mouseover(function(){
+			var h2 = $("#Name");  
+			h2.css("color", "red");
+  			h2.animate({fontSize: '2.5em'}, "slow");
+		 });
+		});
+	</script>
+</body>
+
+</html> 
